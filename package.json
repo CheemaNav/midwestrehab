@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "build-local.js",
   "scripts": {
-    "build": "node build-local.js && node build-local.js index.html",
+    "build": "node build-local.js && node build-local.js index.html && node prepare-public.js",
     "serve": "npx serve -l 8080 --no-clipboard",
     "start": "npm run build && npm run serve"
   },
